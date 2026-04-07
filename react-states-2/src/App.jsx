@@ -5,12 +5,14 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import LudoBoard from './LudoBoard'
 import TodoList from './TodoList'
+import LotteryTicket from './Lottery'
 function App() {
 
   return (  
     <>
       {/* <LudoBoard /> */}
-      < TodoList />
+      {/* < TodoList /> */}
+      <LotteryTicket />
     </>
   )
 }
