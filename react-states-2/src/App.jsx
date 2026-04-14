@@ -9,6 +9,7 @@ import LotteryTicket from './Lottery'
 // import TicketNum from './TicketNum'
 import Ticket from './Ticket'
 import { sum } from './helper'
+import Form from './Form'
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
       {/* <Ticket ticket = {[0, 1, 2]} />
       <Ticket ticket = {[6, 4, 7]} /> */}
 
-      <LotteryTicket n = {3}  winCondition={winCondition}/>
+      {/* <LotteryTicket n = {3}  winCondition={winCondition}/> */}
+        <Form />
     </>
   )
 }
